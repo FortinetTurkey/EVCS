@@ -1,0 +1,14 @@
+# Name;Display Name;Value Type;Value Type; Description
+ocppMessage;OCPP Message;STRING;The full OCPP Message.
+ocppMessageType;OCPP Message Type;STRING;The type of the OCPP message. Possible values are: CALL,CALLRESULT,CALLERROR or UNKNOWN.
+ocppCallAction;OCPP CALL Action;STRING;The action of the OCPP CALL message.
+ocppIdTag;OCPP ID Tag;STRING;The ID tag that is transmitted in the OCPP message for Authorize, RemoteStartTransaction, ReserveNow, SendLocalList, StartTransaction and StopTransaction.
+ocppConnectorId;OCPP Connector ID;INT16;The connector ID that is transmitted in the OCPP message for StartTransaction and StopTransaction.
+ocppCallJsonPayload;OCPP CALL JSON Payload;STRING;The JSON payload of the OCPP CALL message.
+
+
+
+
+
+
+
